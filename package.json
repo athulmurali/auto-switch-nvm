@@ -1,0 +1,19 @@
+{
+  "name": "nvm-auto-switch",
+  "version": "1.0.0",
+  "description": "A npm to auto switch nvm current based on package.json engines",
+  "main": "index.js",
+  "author": "<athul.muralidharan@oracle.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "2.4.2",
+    "fs": "^0.0.1-security",
+    "semver": "^7.5.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "scripts": {
+    "test": "jest tests/*.js"
+  }
+}
